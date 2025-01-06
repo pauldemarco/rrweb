@@ -84,4 +84,5 @@ export default class rrwebPlayer extends SvelteComponent {
     startLooping?: boolean,
     afterHook?: undefined | (() => void),
   ) => void;
+  startLive: () => void;
 }
